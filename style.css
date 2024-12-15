@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+/* body{
+    background-image: linear-gradient(to right,beige, rgb(170, 97, 38));
+
+} */
+header {
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+    background-color: #150b0c;
+    height: 60px;
+
+}
+
+header a {
+    text-decoration: none;
+    color: rgb(245 245 220);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: browne;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 25px;
+}
+
+nav a:hover {
+    color: black;
+}
+
+#Definition {
+    width: 100%;
+    /* min-height: 100vh; */
+    display: flex;
+    align-items: center;
+    padding: 10%;
+    background: url(img/backgroud.jpg);
+    /* background-size: cover;
+    background-position: center;
+    background-attachment: fixed;    */
+}
+
+#Definition .width {
+    width: 50%;
+    text-align: center;
+
+}
+
+#Definition h1 {
+    color: rgb(245 245 220);
+    font-size: 35px;
+    font-weight: 600px;
+    text-align: justify;
+    line-height: 82px;
+}
+
+#Definition p {
+    color:rgb(245 245 220);
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-align: justify;
+    line-height: 25px;
+    margin: 0 50px;
+}
+
+#Definition div img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.animal_trainers {
+    padding-top: 10%;
+    background: #030303;
+}
+
+#famous,
+#animals h1 {
+    display: flex;
+    justify-content: center;
+    color: rgb(245 245 220);
+    font-size: 2.5em;
+    font-weight: 800px;
+    margin-bottom: 30px;
+}
+
+.muhammed,
+.muhammed_ali_elhelw,
+.mahmoud,
+.ibtisam {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.muhammed img,
+.muhammed_ali_elhelw img,
+.mahmoud img,
+.ibtisam img {
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.all-trainers,
+.all-animals {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 10%;
+}
+
+.trainers,
+.animal {
+    background-color: beige;
+    width: 22%;
+    box-shadow: 0 5px 25px rgb(209, 195, 195);
+    border-radius: 10px;
+    padding: 25px;
+    transition: 0.7s ease;
+}
+
+.trainers h2 {
+    margin: 10px 0;
+    font-size: 17px;
+}
+
+.trainers p {
+    font-size: 14px;
+}
+#animals {
+    padding: 11% 0;
+    background: #030303;
+
+}
+
+#animal_trainer:hover {
+    transform: scale(1.1);
+}
+
+.animal  h2{
+    text-align: center;
+    margin: 10px 0;
+}
+
+.animal img {
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.animal:hover,.trainers:hover  {
+    transform: scale(1.1);
+}
+footer {
+    background: rgb(245 245 220);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+    padding: 4% 10%;
+}
+footer h1  {
+
+margin-bottom: 22px;
+}
+footer ul li a {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+footer .footer-list {
+
+width: 77%;
+
+display: flex;
+
+justify-content: space-between;
+}
+footer .footer-list ul {
+
+list-style: none;
+
+line-height: 34px;
+}
+footer .footer-list .footer-subList{
+    
+line-height: 34px;
+}
